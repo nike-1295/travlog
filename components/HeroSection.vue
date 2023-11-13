@@ -3,7 +3,7 @@
         <section id="hero" class="container-fluid mt-5 pb-5">
             <div class="row">
                 <div class="col-lg-5 mt-5 px-3 text-sm-left">
-                    <button class="btn rounded-pill px-4 py-3 explore-btn">Explore the World!<i class="fa-solid fa-suitcase"></i></button>
+                    <button class="btn rounded-pill px-4 py-3 explore-btn">Explore the World!</button>
                     <h1 data-aos="fade-right" data-aos-once="true" class="display-3 mt-4 travel-txt">
                         Travel <span class="top-destination-txt">top destination</span><br />of the world
                     </h1>

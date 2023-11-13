@@ -1,6 +1,5 @@
 <template>
     <div class="container">
-        <!-- Travel point section -->
         <section class="container-fluid my-5">
             <div class="row">
                 <div data-aos="fade-right" data-aos-delay="150" class="col-md-12 col-lg-6">
