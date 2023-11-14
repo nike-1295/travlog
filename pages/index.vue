@@ -1,10 +1,10 @@
 <template>
     <div class="container-fluid">
-        <HeroSection />
-        <LogoSection />
-        <ServicesSection />
-        <TravelPointSection />
-        <NewsletterSection />
+        <TopBanner />
+        <TravelBrands />
+        <OurServices />
+        <MidBanner />
+        <Newsletter />
     </div>
 </template>
   

@@ -13,11 +13,13 @@
                     <div data-aos="fade-up" data-aos-once="true" data-aos-delay="600" class="mt-2">
                         <ul class="d-flex flex-row navbar-nav ml-auto pt-3">
                             <li class="nav-item px-lg-3">
-                                <button class="btn btn-bg-purple text-white rounded-pill mx-lg-0 mx-md-2 mx-sm-2 px-4 py-2 mb-2 mb-lg-0">Get
+                                <button
+                                    class="btn btn-bg-purple text-white rounded-pill mx-lg-0 mx-md-2 mx-sm-2 px-4 py-2 mb-2 mb-lg-0">Get
                                     Started</button>
                             </li>
                             <li class="nav-item">
-                                <button class="btn rounded-pill mx-lg-0 mx-md-2 mx-sm-2 px-4 py-2 border border-dark">Watch Demo</button>
+                                <button class="btn rounded-pill mx-lg-0 mx-md-2 mx-sm-2 px-4 py-2 border border-dark">Watch
+                                    Demo</button>
                             </li>
                         </ul>
                     </div>
@@ -34,9 +36,7 @@
 
 <script>
 export default {
-    setup() {
-        return {}
-    }
+    name: 'TopBanner',
 }
 </script>
 
@@ -44,14 +44,16 @@ export default {
 .w-85 {
     width: 85%;
 }
+
 .explore-btn {
     background-color: #f9f4f4fc;
     color: #fa408e;
 }
+
 .top-destination-txt {
     color: #fa559b;
 }
+
 .btn-bg-purple {
     background-color: #5d50c6;
-}
-</style>
+}</style>

@@ -34,7 +34,7 @@
 <script>
 import aosMixin from '@/mixins/aos'
 export default {
-  name: 'ServicesSection',
+  name: 'OurServices',
   mixins: [aosMixin],
   data() {
     return {

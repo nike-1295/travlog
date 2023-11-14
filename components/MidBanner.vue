@@ -25,7 +25,7 @@
 <script>
 import aosMixin from '@/mixins/aos'
 export default {
-    name: 'TravelPointSection',
+    name: 'MidBanner',
     mixins: [aosMixin],
     data() {
         return {

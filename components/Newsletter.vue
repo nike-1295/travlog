@@ -22,6 +22,7 @@
   
 <script>
 export default {
+  name: 'Newsletter',
   data() {
     return {
       email: ''
