@@ -4,6 +4,7 @@
         <LogoSection />
         <ServicesSection />
         <TravelPointSection />
+        <NewsletterSection />
     </div>
 </template>
   

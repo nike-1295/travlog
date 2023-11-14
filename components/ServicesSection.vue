@@ -6,17 +6,17 @@
           <h4 data-aos="fade-right" data-aos-once="true" class="text-uppercase services-txt mt-4">
             Services
           </h4>
-          <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="d-sm-block w-75 top-values-txt">
+          <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="d-sm-block w-75 fw-bolder">
             Our top value categories for you
           </p>
         </div>
-        <div class="d-sm-block col-lg-7 d-flex flex-column">
-          <div class="w-100 overflow-hidden d-flex">
+        <div class="d-sm-block col-lg-7">
+          <div class="w-100 overflow-hidden">
             <div v-for="(article, index) in articles" :key="index" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div :class="{ 'carousel-item': true, 'active': index === 0 }">
                   <div class="card border rounded p-3">
-                    <div class="card-body d-flex flex-column">
+                    <div class="card-body">
                       <h5 class="card-title">{{ article.title }}</h5>
                       <p class="card-text text-secondary my-4">{{ article.description }}</p>
                     </div>
@@ -77,9 +77,5 @@ export default {
 .services-txt {
   color: #fa559b;
   letter-spacing: 3px;
-}
-
-.top-values-txt {
-  font-weight: 500;
 }
 </style>
